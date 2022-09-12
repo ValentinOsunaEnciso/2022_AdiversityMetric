@@ -15,7 +15,7 @@ l=[-50.0, -50.0, -50.0, -50.0]
 
 u=[50.0, 50.0, 50.0, 50.0]
 
-The containers 'u' and 'l' are 1xD in size, where D is the dimension of the problem, whereas X_k is Np x D, where Np is the population size, and k is the actual iteration of the metaheuristic algorithm. To utilize the function presented in the paper:
+The containers 'u' and 'l' are [1 x D] in size, where D is the dimension of the problem, whereas X_k is [Np x D], where Np is the population size, and k is the actual iteration of the metaheuristic algorithm. To utilize the function presented in the paper:
 
 nVOL(X, l, u)
 
