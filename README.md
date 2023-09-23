@@ -1,6 +1,6 @@
 # 2022_AdiversityMetric
 Abstract: In Metaheuristic Algorithms (MA), the balance between exploration and exploitation is a common issue considered an open research problem in the MA community. Besides its particular parameters, another way to control the Exploration–Exploitation Balance in MA is by using a diversity metric (DM) as a guide. However, this procedure has two drawbacks: its computational cost and its effectiveness to represent the actual diversity of the population. This paper proposes a DM for real-coded candidate solutions. The approach utilizes surrogate hypervolumes to calculate the spatial distribution of the individuals in the population. In a comparison against five DM reported in the literature, our proposal achieves comparable results in terms of stability, sensitivity, and robustness in the presence of outliers, without significant increases in the computational cost.
-
+#
 Experiments from the paper "A diversity metric for population-based metaheuristic algorithms", published in 2022.
 The files were created with Matlab, and all the experiments of the paper are included. The main file is runBenchmark.m, which runs a generic test. 
 The experiments are separated by number, and some lines of code are commented because their original purpose was to debug the original code. 
